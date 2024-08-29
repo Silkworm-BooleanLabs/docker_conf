@@ -1,0 +1,7 @@
+services:
+  cp_request_and_inquiry_management_container:
+    image: evolza/cp_request_and_inquiry_management
+    container_name: cp_request_and_inquiry_management
+    ports:
+      - "5016:8020"
+

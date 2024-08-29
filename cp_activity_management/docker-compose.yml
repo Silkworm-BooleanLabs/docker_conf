@@ -1,0 +1,6 @@
+services:
+  cp_activity_management:
+    image: evolza/cp_activity_management
+    container_name: cp_activity_management
+    ports:
+      - "5030:8023"

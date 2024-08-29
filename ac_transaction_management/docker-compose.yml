@@ -1,0 +1,6 @@
+services:
+  ac_transaction_management:
+    image: evolza/ac_transaction_management
+    container_name: ac_transaction_management
+    ports:
+      - "5031:8030"

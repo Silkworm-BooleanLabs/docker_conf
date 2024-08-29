@@ -1,0 +1,6 @@
+services:
+  messaging_and_inquiry_service:
+    image: evolza/messaging-and-inquiry-management
+    container_name: messaging-and-inquiry-management
+    ports:
+     - "5014:8005"  

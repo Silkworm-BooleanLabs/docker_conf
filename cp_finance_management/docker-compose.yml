@@ -1,0 +1,7 @@
+services:
+  cp_finance_management:
+    image: evolza/cp_finance_management
+    container_name: cp_finance_management
+    ports:
+      - "5007:8013"
+

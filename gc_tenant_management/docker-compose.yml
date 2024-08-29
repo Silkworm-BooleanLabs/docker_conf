@@ -1,0 +1,7 @@
+services:
+  gc_tenant_management:
+    image: evolza/gc_tenant_management
+    container_name: gc_tenant_management
+    ports:
+      - "5000:8000"
+

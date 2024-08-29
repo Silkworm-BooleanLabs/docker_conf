@@ -1,0 +1,7 @@
+services:
+  ac_activity_management:
+    image: evolza/ac_client_and_verification_management
+    container_name: ac_client_and_verification_management
+    ports:
+      - "5004:8027"
+

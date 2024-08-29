@@ -1,0 +1,7 @@
+services:
+  cp_analytics_service:
+    image: evolza/cp_analytics_service
+    container_name: cp_analytics_service
+    ports:
+      - "5006:8014"
+
