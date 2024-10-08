@@ -1,7 +1,7 @@
 services:
   cp_user_management:
-    image: evolza/cp_user_management
-    container_name: cp_user_management
+    image: evolza/d_cp_user_management
+    container_name: d_cp_user_management
     ports:
       - "5008:8010"
 

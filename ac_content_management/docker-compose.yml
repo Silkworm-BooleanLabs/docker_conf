@@ -1,7 +1,0 @@
-services:
-  ac_activity_management:
-    image: evolza/ac_content_management
-    container_name: ac_content_management
-    ports:
-      - "5001:8003"
-

@@ -1,7 +1,7 @@
 services:
   cp_messaging_and_request_management:
-    image: evolza/cp_messaging_and_request_management
-    container_name: cp_messaging_and_request_management
+    image: evolza/d_cp_messaging_and_request_management
+    container_name: d_cp_messaging_and_request_management
     ports:
       - "5010:8011"
 

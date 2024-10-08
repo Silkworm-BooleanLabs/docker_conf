@@ -1,7 +1,0 @@
-services:
-  ac_inquiry__management:
-    image: evolza/ac_inquiry_management
-    container_name: ac_inquiry_management
-    ports:
-      - "5020:8028"
-

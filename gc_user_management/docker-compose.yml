@@ -1,7 +1,0 @@
-services:
-  gc_user_management_container:
-    image: evolza/gc_user_management
-    container_name: gc_user_management
-    ports:
-      - "5013:8001"
-

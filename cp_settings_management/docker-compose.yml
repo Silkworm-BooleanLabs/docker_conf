@@ -1,7 +1,7 @@
 services:
   cp_settings_management:
-    image: evolza/cp_settings_management
-    container_name: cp_settings_management
+    image: evolza/d_cp_settings_management
+    container_name: d_cp_settings_management
     ports:
       - "5009:8012"
 
